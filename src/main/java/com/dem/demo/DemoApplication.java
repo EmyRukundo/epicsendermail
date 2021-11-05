@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @ComponentScan({"com.delivery.request"})
